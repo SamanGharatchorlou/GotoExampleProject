@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bpx77mx6q1fe5" path="res://scenes/coin.tscn" id="4_1vwl5"]
 [ext_resource type="PackedScene" uid="uid://cgoltf7ca85lm" path="res://scenes/killzone.tscn" id="5_fcaoi"]
 [ext_resource type="PackedScene" uid="uid://y0x6pj8feni8" path="res://scenes/purple_enemy.tscn" id="6_8yamb"]
-[ext_resource type="FontFile" uid="uid://b17khm5udc62s" path="res://assets/fonts/PixelOperator8.ttf" id="7_8krp7"]
+[ext_resource type="FontFile" uid="uid://b17khm5udc62s" path="res://FirstProject/assets/fonts/PixelOperator8.ttf" id="7_8krp7"]
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="8_qx5nq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q3a2m"]
@@ -467,7 +467,6 @@ offset_bottom = -125.0
 theme_override_colors/font_color = Color(0, 0.768627, 0, 1)
 theme_override_fonts/font = ExtResource("7_8krp7")
 theme_override_font_sizes/font_size = 8
-text = "You Collected X Coins"
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_lk7jo")
